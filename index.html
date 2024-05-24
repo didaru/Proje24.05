@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowerShop Demo</title>
+  <link rel="stylesheet" href="myframework.css">
+  <script src="myframework.js" defer></script>
+</head>
+<body>
+
+  
+  <nav class="navbar">
+    <div>
+      <a href="#" class="navbar__link">Home</a>
+      <a href="#" class="navbar__link">Shop</a>
+      <a href="#" class="navbar__link">Contact</a>
+    </div>
+    <button class="btn btn--primary" onclick="toggleMenu()">Menu</button>
+    <div class="navbar__menu">
+      <a href="#" class="navbar__link">Home</a>
+      <a href="#" class="navbar__link">Shop</a>
+      <a href="#" class="navbar__link">Contact</a>
+    </div>
+  </nav>
+
+  
+  <div class="container">
+    <form onsubmit="return validateForm()" class="form">
+      <input type="email" required placeholder="Email">
+      <input type="password" required placeholder="Password">
+      <button type="submit" class="btn btn--primary">Submit</button>
+    </form>
+    <button class="btn btn--primary" onclick="toggleTheme()">Toggle Theme</button>
+  </div>
+
+ 
+  <header class="header">
+    <h1>Welcome to FlowerShop</h1>
+  </header>
+
+ 
+  <div class="alert">Spring Sale! Get 20% off on all bouquets!</div>
+
+ 
+  <div class="container">
+  <div class="row">
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Rose Bouquet</div>
+  <div class="card__body">
+  <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Red-Roses-Bouquet.jpg" alt="Rose Bouquet" class="product-img">
+    <p>Beautiful red roses for your loved ones.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Tulip Bouquet</div>
+  <div class="card__body">
+  <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Tulip Bouquet.jpg" alt="Tulip Bouquet" class="product-img">
+  <p>Bright and cheerful tulips to brighten your day.</p>
+  <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Sunflower Bouquet</div>
+  <div class="card__body">
+   <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Sunflower Bouquet.jpg" alt="Sunflower Bouquet" class="product-img">
+   <p>Sunny and vibrant sunflowers to make you smile.</p>
+   <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Lily Bouquet</div>
+  <div class="card__body">
+   <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Lily Bouquet.jpg" alt="Lily Bouquet" class="product-img">
+   <p>Elegant white lilies for a touch of class.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Daisy Bouquet</div>
+  <div class="card__body">
+    <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Daisy Bouquet.jpg" alt="Daisy Bouquet" class="product-img">
+    <p>Fresh and simple daisies to brighten your home.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Orchid Bouquet</div>
+  <div class="card__body">
+    <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Orchid Bouquet.jpg" alt="Orchid Bouquet" class="product-img">
+    <p>Exotic orchids for a unique touch.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Peony Bouquet</div>
+  <div class="card__body">
+    <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Peony Bouquet.jpg" alt="Peony Bouquet" class="product-img">
+    <p>Delicate peonies for a romantic gesture.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Lavender Bouquet</div>
+  <div class="card__body">
+    <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Lavender Bouquet.jpg" alt="Lavender Bouquet" class="product-img">
+    <p>Relaxing lavender to soothe your senses.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Carnation Bouquet</div>
+  <div class="card__body">
+    <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Carnation Bouquet.jpg" alt="Carnation Bouquet" class="product-img">
+    <p>Colorful carnations to brighten any occasion.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Hydrangea Bouquet</div>
+  <div class="card__body">
+    <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Hydrangea Bouquet.jpg" alt="Hydrangea Bouquet" class="product-img">
+    <p>Hydrangeas for a lush and full arrangement.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Gardenia Bouquet</div>
+  <div class="card__body">
+   <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Gardenia Bouquet.jpg" alt="Gardenia Bouquet" class="product-img">
+   <p>Fragrant gardenias for a touch of elegance.</p>
+   <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Poppy Bouquet</div>
+  <div class="card__body">
+    <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Poppy Bouquet.jpg" alt="Poppy Bouquet" class="product-img">
+    <p>Bright poppies to add a splash of color.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Iris Bouquet</div>
+  <div class="card__body">
+    <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Iris Bouquet.jpg" alt="Iris Bouquet" class="product-img">
+    <p>Elegant irises for a sophisticated touch.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card__header">Marigold Bouquet</div>
+  <div class="card__body">
+    <img src="c:\Users\didar\OneDrive\Masaüstü\Neyse\Neos\24.05.2024Proje\resimler\Marigold Bouquet.jpg" alt="Marigold Bouquet" class="product-img">
+    <p>Bright marigolds for a cheerful bouquet.</p>
+    <button class="btn btn--secondary">Add to Cart</button>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+</html>
